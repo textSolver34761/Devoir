@@ -1,6 +1,7 @@
 # Devoir sur un TDD:
 
-Ce projet a été créé dans le cadre d'un cours sur les Test Driven Developpement (TDD) 
+Ce projet a été créé dans le cadre d'un cours sur les Test Driven Developpement (TDD).
+
 Il reprend une ancienne calculatrice sur laquelle les tests ont été faits.
 
 #User Stories
