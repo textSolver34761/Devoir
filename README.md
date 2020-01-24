@@ -24,7 +24,9 @@ Il reprend une ancienne calculatrice sur laquelle les tests ont été faits.
 
 # Jenkins:
 
-This project is being cloned in Jenkins, using the following configutation :
+This project is being cloned in Jenkins, using the following configutation 
+
+## Freestyle project :
 
 Build:
 
@@ -32,3 +34,12 @@ Set build status to "pending" on GitHub commit
 
  	Commit context:		From Github propriety with fallback to job name.
 
+
+
+## Pipeline project :
+
+node('master') {
+
+    git 'https://github.com/textSolver34761/Devoir.git'
+    
+}
