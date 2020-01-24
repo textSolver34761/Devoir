@@ -27,6 +27,8 @@ Il reprend une ancienne calculatrice sur laquelle les tests ont été faits.
 This project is being cloned in Jenkins, using the following configutation :
 
 Build:
+
 Set build status to "pending" on GitHub commit 
+
  	Commit context:		From Github propriety with fallback to job name.
 
