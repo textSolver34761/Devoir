@@ -4,7 +4,7 @@ Ce projet a été créé dans le cadre d'un cours sur les Test Driven Developpem
 
 Il reprend une ancienne calculatrice sur laquelle les tests ont été faits.
 
-#User Stories
+# User Stories
 1. En tant qu'utilisateur, je veux pouvoir faire des calculs pour me faciliter la vie.
 
 2. En tant qu'utilisateur, je veux pouvoir faire une addition afin de pouvoir additionner les débits et crédits de mon compte en banque.
@@ -21,4 +21,12 @@ Il reprend une ancienne calculatrice sur laquelle les tests ont été faits.
 
 8. En tant qu'utilisateur, je veux pouvoir utiliser des nombres à virgule afin que le solde de mon compte en banque soit le plus juste possible.
 
+
+# Jenkins:
+
+This project is being cloned in Jenkins, using the following configutation :
+
+Build:
+Set build status to "pending" on GitHub commit 
+ 	Commit context:		From Github propriety with fallback to job name.
 
